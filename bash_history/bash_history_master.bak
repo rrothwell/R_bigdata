@@ -1,0 +1,37 @@
+sudo apt-get install r-cran-snow
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install r-cran-snow
+sudo vi /etc/apt/sources.list
+sudo apt-get update
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo apt-get install r-base
+sudo apt-get update
+sudo apt-get install r-base
+exit
+sudo  R
+sudo apt-get install -y autotools-dev g++ build-essential
+sudo apt-get openmpi-bin openmpi-doc libopenmpi-dev
+sudo apt-get install  openmpi-bin openmpi-doc libopenmpi-dev
+vi .bash_profile
+source .bash_profile
+echo $LD_LIBRARY_PATH
+hostname
+cd ~/.ssh
+ls
+less authorized_keys 
+cat id_dsa.pub >> authorized_keys
+less authorized_keys 
+rm id_dsa.pub
+ls
+ssh-keygen -t dsa
+ls
+chmod 700 .
+chmod 600 authorized_keys 
+ssh 115.146.85.89
+eval `ssh-agent`
+ssh-add ~/.ssh/id_dsa
+ssh 115.146.85.89
+cat /proc/sys/vm/swappiness
+gksudo leafpad /etc/sysctl.conf
+sudo apt-get install gksu

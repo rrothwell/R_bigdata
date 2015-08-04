@@ -1,0 +1,95 @@
+apt-get install r-cran-snow
+sudo apt-get install r-cran-snow
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install r-cran-snow
+sudo R
+sudo vi /etc/apt/sources.list
+cat /etc/lsb-release
+sudo vi /etc/apt/sources.list
+sudo apt-get update
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo apt-get install r-base
+sudo R
+vi .mpi_hostfile
+eval `ssh-agent`
+ssh-add ~/.ssh/id_dsa
+exit
+vi mpi_test.c
+mpicc mpi_test.c 
+mpirun -np 20 ./a.out
+mpirun -np 5 .mpi_hostfile ./a.out
+ls
+ls -al
+mpirun -np 5 --hostfile .mpi_hostfile ./a.out
+vi twitter_handshake.R
+vi twitter_mine.R
+vi twitter_stopwords.R
+vi twitter_mine_stopwords.R
+vi twitter_handshake.R
+R CMD BATCH twitter_handshake.R
+vi twitter_handshake.R
+R
+sudo apt-get install r-cran-rcurl
+R
+sudo apt-get install r-cran-twitter
+sudo 
+sudo R
+vi twitter_handshake.R
+sudo apt-get install r-cran-twitter
+sudo R
+sudo R
+cat /proc/sys/vm/swappiness
+exit
+sudo apt-get install -y autotools-dev g++ build-essential
+sudo apt-get install  openmpi-bin openmpi-doc libopenmpi-dev
+sudo apt-get install openmpi-common libopenmpi1
+sudo apt-get install openmpi-common
+ls m/usr/bin
+ls /usr/bin
+mpirun --help
+echo $LD_LIBRARY_PATH
+ls -al ~
+vi .bash_profile
+source .bash
+source .bash_profile 
+echo $LD_LIBRARY_PATH
+sudo apt-get install openssh-server
+ssh-keygen -t dsa
+hostname
+cd ~/.ssh
+ls
+ls ..
+cat ../id_dsa.pub >> authorized_keys
+less authorized_keys 
+chmod 700 .
+chmod 600 authorized_keys 
+ssh 115.146.85.88
+sudo R
+ps aux
+sudo apt-get install gksu
+sudo apt-get install  openmpi-bin openmpi-doc libopenmpi-dev
+sudo apt-get install -y autotools-dev g++ build-essential
+mpirun -np 5 --hostfile .mpi_hostfile ./a.out
+echo $LD_LIBRARY_PATH
+less ~/.bash_profile 
+mpirun --help
+sudo apt-get install openmpi-common libopenmpi1
+sudo apt-get install r-cran-rcurl
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo apt-get install r-cran-snow
+mpirun -np 5 --hostfile .mpi_hostfile ./a.out
+vi .mpi_hostfile
+mpirun -np 5 --hostfile .mpi_hostfile ./a.out
+sudo R
+sudo apt-get install curl
+sudo R
+sudo apt-get install curl-dev
+sudo apt-get install libcurl-dev
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install libcurl-dev
+sudo R
+sudo apt-get install links2
+sudo R
+sudo R
+exit
